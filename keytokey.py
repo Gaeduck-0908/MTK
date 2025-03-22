@@ -24,14 +24,14 @@ else:
     exit()
 
 MIDI_TO_KEY = {
-    50: 'a',  # 54 -> 'a'
-    52: 's',  # 56 -> 's'
-    53: 'd',  # 58 -> 'd'
-    67: 'f',  # 66 -> 'f'
-    69: 'g',  # 68 -> 'g'
-    71: 'h',  # 70 -> 'h'
-    48: Key.shift_l,  # 52 -> left shift
-    72: 'j',  # 72 -> 'j'
+    50: 'a',  
+    52: 's',  
+    53: 'd', 
+    67: 'f',  
+    69: 'g', 
+    71: 'h',  
+    48: Key.shift_l,  
+    72: 'j', 
 }
 
 def midi_callback(event, data=None):
